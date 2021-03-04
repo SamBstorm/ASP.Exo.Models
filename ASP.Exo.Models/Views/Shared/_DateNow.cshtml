@@ -1,0 +1,12 @@
+﻿@{
+    DateTime date = DateTime.Now;
+}
+
+@if (date.Day %2 == 0)
+{
+    <p class="text-primary">Date du jour : @date</p>
+}
+else
+{
+    <p class="text-danger">Date du jour : @date</p>
+}
